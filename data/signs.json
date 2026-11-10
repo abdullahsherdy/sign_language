@@ -1,0 +1,38 @@
+{
+  "categories": [
+    { "id": "everyday", "en": "Everyday", "ar": "كلمات يومية", "color": "teal" },
+    { "id": "needs", "en": "Needs", "ar": "احتياجات", "color": "coral" },
+    { "id": "feelings", "en": "Feelings", "ar": "مشاعر", "color": "lilac" },
+    { "id": "answers", "en": "Answers", "ar": "إجابات", "color": "sun" }
+  ],
+  "signs": [
+    { "id": "hello", "category": "everyday", "en": "Hello", "ar": "مرحبًا",
+      "descEn": "Say it when you meet someone.", "descAr": "نقولها عندما نقابل شخصًا." },
+    { "id": "thanks", "category": "everyday", "en": "Thank you", "ar": "شكرًا", "express": true,
+      "descEn": "Use it when someone helps you or gives you something.", "descAr": "نقولها عندما يساعدنا أحد أو يعطينا شيئًا." },
+    { "id": "sorry", "category": "everyday", "en": "Sorry", "ar": "آسف",
+      "descEn": "Use it when you make a mistake or upset someone.", "descAr": "نقولها عندما نخطئ أو نزعج شخصًا." },
+    { "id": "please", "category": "everyday", "en": "Please", "ar": "من فضلك",
+      "descEn": "Add it when you ask for something kindly.", "descAr": "نضيفها عندما نطلب شيئًا بلطف." },
+    { "id": "goodbye", "category": "everyday", "en": "Goodbye", "ar": "مع السلامة",
+      "descEn": "Say it when you leave or when someone leaves.", "descAr": "نقولها عند الذهاب أو عند وداع شخص." },
+    { "id": "help", "category": "needs", "en": "Help", "ar": "مساعدة", "express": true,
+      "descEn": "Ask for help when you need someone.", "descAr": "نطلب بها المساعدة عندما نحتاج إلى أحد." },
+    { "id": "water", "category": "needs", "en": "Water", "ar": "ماء", "express": true,
+      "descEn": "Ask for water when you are thirsty.", "descAr": "نطلب بها الماء عندما نعطش." },
+    { "id": "food", "category": "needs", "en": "Food", "ar": "أكل", "express": true,
+      "descEn": "Ask for food when you are hungry.", "descAr": "نطلب بها الأكل عندما نجوع." },
+    { "id": "toilet", "category": "needs", "en": "Toilet", "ar": "حمّام", "express": true,
+      "descEn": "Say you need the toilet, or ask where it is.", "descAr": "نقول بها إننا نحتاج إلى الحمّام، أو نسأل عن مكانه." },
+    { "id": "happy", "category": "feelings", "en": "Happy", "ar": "سعيد",
+      "descEn": "Show that you feel happy.", "descAr": "نعبّر بها عن الفرح." },
+    { "id": "sad", "category": "feelings", "en": "Sad", "ar": "حزين",
+      "descEn": "Show that you feel sad.", "descAr": "نعبّر بها عن الحزن." },
+    { "id": "tired", "category": "feelings", "en": "Tired", "ar": "تعبان", "express": true,
+      "descEn": "Tell others you are tired and need rest.", "descAr": "نخبر بها الآخرين أننا متعبون ونحتاج إلى راحة." },
+    { "id": "yes", "category": "answers", "en": "Yes", "ar": "نعم", "express": true,
+      "descEn": "Answer yes to a question.", "descAr": "نجيب بها بالموافقة." },
+    { "id": "no", "category": "answers", "en": "No", "ar": "لا", "express": true,
+      "descEn": "Answer no to a question.", "descAr": "نجيب بها بالرفض." }
+  ]
+}

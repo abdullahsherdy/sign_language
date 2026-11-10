@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>بيان · Bayan</title>
+  <meta name="description" content="Bayan helps families learn sign language and lets deaf people express their needs. بيان يساعد الأسر على تعلّم لغة الإشارة.">
+  <meta name="theme-color" content="#F4FAFF" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E2433" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@800&family=Readex+Pro:wght@400;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Apply saved theme, language and text size before the page paints (no flash).
+    try {
+      var saved = function (k) { var v = localStorage.getItem("bayan-" + k); return v && JSON.parse(v); };
+      var lang = saved("lang") || "ar";
+      document.documentElement.lang = lang;
+      document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+      if (saved("theme")) document.documentElement.dataset.theme = saved("theme");
+      document.documentElement.dataset.size = saved("size") || 0;
+    } catch (e) { /* storage blocked: defaults are fine */ }
+  </script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">تخطَّ إلى المحتوى</a>
+
+  <!-- Small interface icons. Each <symbol> is used with <svg><use href="#i-name"/></svg>. -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-home" viewBox="0 0 24 24"><path d="M3.5 11 12 3.8l8.5 7.2v8.6a1.6 1.6 0 0 1-1.6 1.6H15v-6H9v6H5.1a1.6 1.6 0 0 1-1.6-1.6Z" fill="var(--ifill,none)"/></symbol>
+      <symbol id="i-signs" viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="2.5" fill="var(--ifill,none)"/><rect x="13" y="3" width="8" height="8" rx="2.5"/><rect x="3" y="13" width="8" height="8" rx="2.5"/><rect x="13" y="13" width="8" height="8" rx="2.5" fill="var(--ifill,none)"/></symbol>
+      <symbol id="i-quiz" viewBox="0 0 24 24"><path d="M5 3.5h14A1.5 1.5 0 0 1 20.5 5v10a1.5 1.5 0 0 1-1.5 1.5h-7l-4.5 4v-4H5A1.5 1.5 0 0 1 3.5 15V5A1.5 1.5 0 0 1 5 3.5Z" fill="var(--ifill,none)"/><path d="M9.6 8a2.5 2.5 0 1 1 3.4 2.3c-.6.3-1 .8-1 1.4"/><path d="M12 14.2v.1"/></symbol>
+      <symbol id="i-express" viewBox="0 0 24 24"><path d="M8 12V5.5a1.5 1.5 0 0 1 3 0V11m0-6.5V4a1.5 1.5 0 0 1 3 0v7m0-6a1.5 1.5 0 0 1 3 0v6.5m0-4a1.5 1.5 0 0 1 3 0V15a7 7 0 0 1-7 7h-.6a7 7 0 0 1-5.2-2.3L3.5 15.6a1.6 1.6 0 0 1 2.4-2.2L8 15.5" fill="var(--ifill,none)"/></symbol>
+      <symbol id="i-about" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="var(--ifill,none)"/><path d="M12 11v6M12 7.5v.1"/></symbol>
+      <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 4.5c4-2.5 7 2.5 14 0v9c-7 2.5-10-2.5-14 0Z" fill="var(--ifill,none)"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></symbol>
+      <symbol id="i-speaker" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4Z" fill="var(--ifill,none)"/><path class="wave1" d="M15.5 9a4 4 0 0 1 0 6"/><path class="wave2" d="M18.3 6.5a7.5 7.5 0 0 1 0 11"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+      <symbol id="i-back" viewBox="0 0 24 24"><path d="m14.5 5.5-6.5 6.5 6.5 6.5"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10Z" fill="var(--ifill,none)"/></symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2" fill="var(--ifill,none)"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.5 1.5M17.2 17.2l1.5 1.5M5.3 18.7l1.5-1.5M17.2 6.8l1.5-1.5"/></symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.8 5.8 3.8 9s-1.2 6.2-3.8 9c-2.6-2.8-3.8-5.8-3.8-9S9.4 5.8 12 3Z"/></symbol>
+      <symbol id="i-text" viewBox="0 0 24 24"><path d="M3 19 8 6l5 13M4.8 14.5h6.4M14.5 19l3.2-8 3.3 8M15.6 16.3h4.3"/></symbol>
+      <symbol id="i-restart" viewBox="0 0 24 24"><path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3"/><path d="M4.5 3.5v4h4"/></symbol>
+      <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.8l-5.4 2.9 1.1-6.1-4.5-4.2 6.1-.8Z" fill="var(--ifill,none)"/></symbol>
+    </defs>
+  </svg>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="بيان · Bayan">
+      <img src="logo.svg" alt="" width="48" height="48">
+      <span class="brand-words" aria-hidden="true"><span class="brand-ar">بيان</span><span class="brand-en">Bayan</span></span>
+    </a>
+
+    <nav class="mainnav" aria-label="Main" data-i18n-label="navLabel">
+      <a href="#home" data-page="home"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg><span data-i18n="navHome">الرئيسية</span></a>
+      <a href="#signs" data-page="signs"><svg class="icon" aria-hidden="true"><use href="#i-signs"/></svg><span data-i18n="navSigns">الإشارات</span></a>
+      <a href="#quiz" data-page="quiz"><svg class="icon" aria-hidden="true"><use href="#i-quiz"/></svg><span data-i18n="navQuiz">تدريب</span></a>
+      <a href="#express" data-page="express"><svg class="icon" aria-hidden="true"><use href="#i-express"/></svg><span data-i18n="navExpress">عبّر</span></a>
+      <a href="#about" data-page="about"><svg class="icon" aria-hidden="true"><use href="#i-about"/></svg><span data-i18n="navAbout">عن بيان</span></a>
+    </nav>
+
+    <div class="tools">
+      <button class="tool" type="button" data-action="lang" data-i18n-label="langLabel" aria-label="Switch language">
+        <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg><span class="tool-text" data-i18n="langBtn">English</span>
+      </button>
+      <button class="tool" type="button" data-action="theme" data-i18n-label="themeLabel" aria-label="Theme">
+        <svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg><svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+      </button>
+      <button class="tool" type="button" data-action="size" data-i18n-label="sizeLabel" aria-label="Text size">
+        <svg class="icon" aria-hidden="true"><use href="#i-text"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div id="view" class="view">
+      <noscript><p class="notice">Bayan needs JavaScript. بيان يحتاج إلى تفعيل JavaScript.</p></noscript>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p id="footer-text">جميع الحقوق محفوظة لبتول · بإشراف <a href="https://abdullahsherdy.tech" target="_blank" rel="noopener">م. عبدالله شردي</a></p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
