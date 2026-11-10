@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" width="600" height="144" role="img" aria-label="Bayan بيان">
+  <!-- Wordmark lockup. Text uses Baloo Bhaijaan 2; open the file in a browser to load the font. -->
+  <style>@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@800&amp;display=swap");
+    text { font-family: "Baloo Bhaijaan 2", sans-serif; font-weight: 800; fill: #10324A; }</style>
+  <defs>
+    <g id="hand">
+      <rect x="20.5" y="13" width="6" height="18" rx="3"/>
+      <rect x="27.5" y="9.5" width="6" height="21" rx="3"/>
+      <rect x="34.5" y="11" width="6" height="20" rx="3"/>
+      <rect x="41.5" y="16" width="5.5" height="15" rx="2.75"/>
+      <rect x="20.5" y="23" width="26.5" height="19" rx="8"/>
+      <rect x="15.5" y="26" width="6" height="15" rx="3" transform="rotate(-35 18.5 37)"/>
+    </g>
+  </defs>
+  <g transform="translate(2 4)">
+    <path d="M12 5H52A8 8 0 0 1 60 13V40A8 8 0 0 1 52 48H27L15 58.5V48H12A8 8 0 0 1 4 40V13A8 8 0 0 1 12 5Z" fill="#0FA3A3" stroke="#10324A" stroke-width="3" stroke-linejoin="round"/>
+    <g transform="translate(1 0) rotate(-12 33 30)">
+      <use href="#hand" fill="#10324A" stroke="#10324A" stroke-width="6" stroke-linejoin="round"/>
+      <use href="#hand" fill="#FFC72C"/>
+    </g>
+  </g>
+  <text x="78" y="50" font-size="44">Bayan</text>
+  <rect x="210" y="16" width="3" height="40" rx="1.5" fill="#0FA3A3"/>
+  <text x="290" y="50" font-size="44" text-anchor="end">بيان</text>
+</svg>

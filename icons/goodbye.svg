@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<!-- Goodbye: an open door -->
+<g stroke="#10324A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="12" y="7" width="30" height="51" rx="3" fill="#10324A"/>
+<path d="M12 7L30 11V61L12 58Z" fill="#FFC72C"/>
+<circle cx="25" cy="36" r="1.8" fill="#10324A"/>
+<path d="M47 34h12M54 28l6 6-6 6" fill="none"/>
+</g>
+</svg>
