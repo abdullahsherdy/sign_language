@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <!-- "Bayan hand" mascot. Three poses: #wave, #cheer, #think.
+       Use it like: <svg viewBox="0 0 160 160"><use href="mascot.svg#wave"/></svg> -->
+  <defs>
+    <!-- The hand shape. Drawn twice: thick ink first (outline), sun fill on top. -->
+    <g id="hand-shape">
+      <rect x="50" y="34" width="19" height="58" rx="9.5" transform="rotate(-10 59.5 92)"/>
+      <rect x="71" y="22" width="19" height="68" rx="9.5" transform="rotate(-2 80.5 90)"/>
+      <rect x="92" y="28" width="19" height="62" rx="9.5" transform="rotate(7 101.5 90)"/>
+      <rect x="110" y="46" width="17" height="48" rx="8.5" transform="rotate(16 118.5 94)"/>
+      <rect x="46" y="68" width="80" height="70" rx="30"/>
+      <rect x="34.5" y="82" width="19" height="40" rx="9.5" transform="rotate(-35 44 118)"/>
+    </g>
+    <g id="body">
+      <rect x="58" y="126" width="58" height="30" rx="8" fill="#0FA3A3" stroke="#10324A" stroke-width="4"/>
+      <path d="M72 134v14M87 134v14M102 134v14" stroke="#10324A" stroke-width="3" stroke-linecap="round" opacity=".35"/>
+      <use href="#hand-shape" fill="#10324A" stroke="#10324A" stroke-width="8" stroke-linejoin="round"/>
+      <use href="#hand-shape" fill="#FFC72C"/>
+      <ellipse cx="59" cy="117" rx="6.5" ry="4.5" fill="#FF6F59"/>
+      <ellipse cx="113" cy="117" rx="6.5" ry="4.5" fill="#FF6F59"/>
+    </g>
+    <g id="open-eyes" stroke="#10324A" stroke-width="3.5">
+      <ellipse cx="72" cy="100" rx="9" ry="11" fill="#FFFFFF"/>
+      <ellipse cx="100" cy="100" rx="9" ry="11" fill="#FFFFFF"/>
+    </g>
+  </defs>
+
+  <symbol id="wave" viewBox="0 0 160 160">
+    <use href="#body"/>
+    <use href="#open-eyes"/>
+    <circle cx="74" cy="103" r="5" fill="#10324A"/><circle cx="102" cy="103" r="5" fill="#10324A"/>
+    <circle cx="76" cy="100.5" r="1.8" fill="#FFFFFF"/><circle cx="104" cy="100.5" r="1.8" fill="#FFFFFF"/>
+    <path d="M76 117q10 11 20 0" fill="none" stroke="#10324A" stroke-width="4" stroke-linecap="round"/>
+    <g fill="none" stroke="#10324A" stroke-width="4" stroke-linecap="round">
+      <path d="M136 36a20 20 0 0 1 8 22"/>
+      <path d="M146 24a34 34 0 0 1 10 34"/>
+    </g>
+  </symbol>
+
+  <symbol id="cheer" viewBox="0 0 160 160">
+    <use href="#body"/>
+    <g fill="none" stroke="#10324A" stroke-width="4.5" stroke-linecap="round">
+      <path d="M64 103q8-11 16 0"/><path d="M92 103q8-11 16 0"/>
+    </g>
+    <path d="M74 112h24q-2 16-12 16t-12-16z" fill="#10324A" stroke="#10324A" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M79 123q7-5 14 0q-3 4-7 4t-7-4z" fill="#FF6F59"/>
+    <g fill="#FFC72C" stroke="#10324A" stroke-width="3" stroke-linejoin="round">
+      <path d="M22 30l4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/>
+      <path d="M142 18l3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/>
+      <path d="M148 84l2.5 5.5 5.5 2.5-5.5 2.5-2.5 5.5-2.5-5.5-5.5-2.5 5.5-2.5z"/>
+    </g>
+    <circle cx="30" cy="70" r="4" fill="#B8A1FF" stroke="#10324A" stroke-width="2.5"/>
+    <circle cx="132" cy="54" r="3.5" fill="#FF6F59" stroke="#10324A" stroke-width="2.5"/>
+  </symbol>
+
+  <symbol id="think" viewBox="0 0 160 160">
+    <use href="#body"/>
+    <use href="#open-eyes"/>
+    <circle cx="69" cy="96" r="5" fill="#10324A"/><circle cx="97" cy="96" r="5" fill="#10324A"/>
+    <path d="M62 84l16-3M94 81l15 3" stroke="#10324A" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M78 121q4-4 8 0t8 0" fill="none" stroke="#10324A" stroke-width="4" stroke-linecap="round"/>
+    <g fill="#FFFFFF" stroke="#10324A" stroke-width="3.5">
+      <circle cx="24" cy="30" r="19"/>
+      <circle cx="40" cy="60" r="5"/>
+      <circle cx="44" cy="72" r="3"/>
+    </g>
+    <path d="M18 24a6.5 6.5 0 1 1 8.5 6.2c-1.6.6-2.5 2-2.5 3.8" fill="none" stroke="#10324A" stroke-width="3.8" stroke-linecap="round"/>
+    <circle cx="24" cy="41" r="2.4" fill="#10324A"/>
+  </symbol>
+</svg>

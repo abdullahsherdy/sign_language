@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<!-- Help: a life ring -->
+<g stroke="#10324A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M32 9a23 23 0 1 0 .01 0Z" fill="#FFFFFF"/>
+<circle cx="32" cy="32" r="16.5" fill="none" stroke="#FFC72C" stroke-width="13" stroke-dasharray="12.96 12.96" stroke-linecap="butt" transform="rotate(-22 32 32)"/>
+<circle cx="32" cy="32" r="23" fill="none"/>
+<circle cx="32" cy="32" r="10" fill="#FF6F59"/>
+</g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<!-- Category: needs -->
+<g stroke="#10324A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M10 30L32 9L54 30" fill="#FF6F59"/>
+<path d="M15 27V55H49V27" fill="#FFFFFF"/>
+<path d="M10 30L32 9L54 30Z" fill="#FF6F59"/>
+<path d="M32 50C25 45.5 22 42 23.2 37.8C24.4 34 29 33.4 32 37C35 33.4 39.6 34 40.8 37.8C42 42 39 45.5 32 50Z" fill="#FF6F59"/>
+</g>
+</svg>

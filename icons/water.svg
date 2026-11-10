@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<!-- Water: a glass of water -->
+<g stroke="#10324A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M17 8H47L42.5 57H21.5Z" fill="#FFFFFF"/>
+<path d="M18.6 25H45.4L42.5 57H21.5Z" fill="#0FA3A3" stroke="none"/>
+<path d="M17 8H47L42.5 57H21.5Z" fill="none"/>
+<path d="M18.6 25H45.4" fill="none"/>
+<circle cx="28" cy="40" r="2.5" fill="#FFFFFF" stroke-width="2"/><circle cx="36" cy="48" r="2" fill="#FFFFFF" stroke-width="2"/>
+</g>
+</svg>

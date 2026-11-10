@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<!-- Thank you: a heart -->
+<g stroke="#10324A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M32 55C14 43 6 33 9 22.5C12 12 25 10 32 20C39 10 52 12 55 22.5C58 33 50 43 32 55Z" fill="#FF6F59"/>
+<path d="M16 22a7 7 0 0 1 7-6" fill="none" stroke="#FFFFFF"/>
+<path d="M53 4l2 4.5 4.5 2-4.5 2-2 4.5-2-4.5-4.5-2 4.5-2z" fill="#FFC72C" stroke-width="2.5"/>
+</g>
+</svg>

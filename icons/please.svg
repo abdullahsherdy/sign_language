@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<!-- Please: a kind request bubble -->
+<g stroke="#10324A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M11 8H53A6 6 0 0 1 59 14V40A6 6 0 0 1 53 46H29L18 56V46H11A6 6 0 0 1 5 40V14A6 6 0 0 1 11 8Z" fill="#FFFFFF"/>
+<path d="M32 38C23 32 19 27 20.5 21.5C22 16.5 28.5 15.5 32 20.5C35.5 15.5 42 16.5 43.5 21.5C45 27 41 32 32 38Z" fill="#FF6F59"/>
+</g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<!-- Tired: a sleepy face -->
+<g stroke="#10324A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="28" cy="36" r="23" fill="#BDF2D5"/>
+<path d="M16 33q4.5 4 9 0M31 33q4.5 4 9 0" fill="none"/>
+<ellipse cx="28" cy="45" rx="3.5" ry="4" fill="#10324A" stroke="none"/>
+<path d="M44 5h9l-9 10h9M54 20h6l-6 7h6" fill="none" stroke-width="2.8"/>
+</g>
+</svg>

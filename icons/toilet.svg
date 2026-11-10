@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<!-- Toilet -->
+<g stroke="#10324A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="11" y="6" width="20" height="26" rx="3" fill="#FFFFFF"/>
+<rect x="15" y="11" width="8" height="4" rx="2" fill="#FFC72C" stroke-width="2"/>
+<path d="M8 32H55C55 43 47 49 37 50L39 59H21L23 49C14 47 8 41 8 32Z" fill="#FFFFFF"/>
+<path d="M8 32H55" fill="none"/>
+<path d="M14 36H49" fill="none" stroke="#B8A1FF" stroke-width="3"/>
+</g>
+</svg>

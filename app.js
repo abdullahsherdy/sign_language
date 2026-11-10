@@ -340,8 +340,9 @@ function renderNext() {
 /* ---------- 5. Features ---------- */
 
 // Speech: recorded audio first (when the sign has "audio": true), browser voice as a fallback.
-function speak(text, sign) {
-  showToast(t("speaking", { w: text }));
+// caption = false when the words are already huge on screen (Express).
+function speak(text, sign, caption = true) {
+  if (caption) showToast(t("speaking", { w: text }));
   if (sign && sign.audio) {
     new Audio(`audio/${state.lang}/${sign.id}.mp3`).play().catch(() => speakWithBrowser(text));
     return;
@@ -487,7 +488,7 @@ function openExpress(id, opener) {
   document.body.append(overlay);
   document.body.classList.add("no-scroll");
   overlay.querySelector('[data-action="close-express"]').focus();
-  speak(word(sign), sign);
+  speak(word(sign), sign, false);
 }
 
 function closeExpress() {
@@ -609,7 +610,7 @@ const ACTIONS = {
     view.querySelector("h1").focus();
   },
   express(el) { openExpress(el.dataset.id, el); },
-  "speak-express"(el) { const s = findSign(el.dataset.id); speak(word(s), s); },
+  "speak-express"(el) { const s = findSign(el.dataset.id); speak(word(s), s, false); },
   "close-express": closeExpress,
   wave(el) {
     const m = el.querySelector(".mascot");

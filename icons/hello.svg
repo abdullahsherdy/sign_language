@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<!-- Hello: a waving hand -->
+<g stroke="#10324A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<defs><g id="h"><rect x="20.5" y="13" width="6" height="18" rx="3"/><rect x="27.5" y="9.5" width="6" height="21" rx="3"/><rect x="34.5" y="11" width="6" height="20" rx="3"/><rect x="41.5" y="16" width="5.5" height="15" rx="2.75"/><rect x="20.5" y="23" width="26.5" height="19" rx="8"/><rect x="15.5" y="26" width="6" height="15" rx="3" transform="rotate(-35 18.5 37)"/></g></defs>
+<g transform="translate(-7 -1) scale(1.2) rotate(-12 33 30)" stroke="none"><use href="#h" fill="#10324A" stroke="#10324A" stroke-width="5"/><use href="#h" fill="#FFC72C"/></g>
+<path d="M50 9a11 11 0 0 1 5 10M54 4a17 17 0 0 1 7 15" fill="none"/>
+</g>
+</svg>
