@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" width="600" height="144" role="img" aria-label="Bayan بيان">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 72" width="720" height="144" role="img" aria-label="Bayan بيان">
   <!-- Wordmark lockup. Text uses Baloo Bhaijaan 2; open the file in a browser to load the font. -->
   <style>@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@800&amp;display=swap");
     text { font-family: "Baloo Bhaijaan 2", sans-serif; font-weight: 800; fill: #10324A; }</style>
@@ -20,6 +20,6 @@
     </g>
   </g>
   <text x="78" y="50" font-size="44">Bayan</text>
-  <rect x="210" y="16" width="3" height="40" rx="1.5" fill="#0FA3A3"/>
-  <text x="290" y="50" font-size="44" text-anchor="end">بيان</text>
+  <rect x="252" y="16" width="3" height="40" rx="1.5" fill="#0FA3A3"/>
+  <text x="352" y="50" font-size="44" text-anchor="end">بيان</text>
 </svg>

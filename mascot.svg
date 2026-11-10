@@ -60,11 +60,11 @@
     <path d="M62 84l16-3M94 81l15 3" stroke="#10324A" stroke-width="3.5" stroke-linecap="round"/>
     <path d="M78 121q4-4 8 0t8 0" fill="none" stroke="#10324A" stroke-width="4" stroke-linecap="round"/>
     <g fill="#FFFFFF" stroke="#10324A" stroke-width="3.5">
-      <circle cx="24" cy="30" r="19"/>
-      <circle cx="40" cy="60" r="5"/>
-      <circle cx="44" cy="72" r="3"/>
+      <circle cx="22" cy="28" r="18"/>
+      <circle cx="35" cy="56" r="5"/>
+      <circle cx="38" cy="68" r="3"/>
     </g>
-    <path d="M18 24a6.5 6.5 0 1 1 8.5 6.2c-1.6.6-2.5 2-2.5 3.8" fill="none" stroke="#10324A" stroke-width="3.8" stroke-linecap="round"/>
-    <circle cx="24" cy="41" r="2.4" fill="#10324A"/>
+    <path d="M16 22a6.5 6.5 0 1 1 8.5 6.2c-1.6.6-2.5 2-2.5 3.8" fill="none" stroke="#10324A" stroke-width="3.8" stroke-linecap="round"/>
+    <circle cx="22" cy="39" r="2.4" fill="#10324A"/>
   </symbol>
 </svg>
