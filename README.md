@@ -34,4 +34,5 @@ All links in the site are relative and pages use hash routes (`#signs`, `#quiz`)
 | `icons/` | One drawing per sign and per category |
 | `logo.svg`, `favicon.svg`, `wordmark.svg` | Brand marks |
 | `mascot.svg` | The "Bayan hand" in three poses: wave, cheer, think |
+| `docs/BATOOL_GUIDE_AR.md` | Arabic guide for Batool: every page explained, plus presentation and judges prep |
 | `docs/screenshots/` | Screenshots at 360px and 1280px, Arabic and English, light and dark |
