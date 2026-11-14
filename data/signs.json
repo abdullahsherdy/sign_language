@@ -1,38 +1,276 @@
 {
   "categories": [
-    { "id": "everyday", "en": "Everyday", "ar": "كلمات يومية", "color": "teal" },
-    { "id": "needs", "en": "Needs", "ar": "احتياجات", "color": "coral" },
-    { "id": "feelings", "en": "Feelings", "ar": "مشاعر", "color": "lilac" },
-    { "id": "answers", "en": "Answers", "ar": "إجابات", "color": "sun" }
+    {
+      "id": "everyday",
+      "en": "Everyday",
+      "ar": "كلمات يومية",
+      "color": "teal"
+    },
+    {
+      "id": "needs",
+      "en": "Needs",
+      "ar": "احتياجات",
+      "color": "coral"
+    },
+    {
+      "id": "feelings",
+      "en": "Feelings",
+      "ar": "مشاعر",
+      "color": "lilac"
+    },
+    {
+      "id": "answers",
+      "en": "Answers",
+      "ar": "إجابات",
+      "color": "sun"
+    }
   ],
   "signs": [
-    { "id": "hello", "category": "everyday", "en": "Hello", "ar": "مرحبًا",
-      "descEn": "Say it when you meet someone.", "descAr": "نقولها عندما نقابل شخصًا." },
-    { "id": "thanks", "category": "everyday", "en": "Thank you", "ar": "شكرًا", "express": true,
-      "descEn": "Use it when someone helps you or gives you something.", "descAr": "نقولها عندما يساعدنا أحد أو يعطينا شيئًا." },
-    { "id": "sorry", "category": "everyday", "en": "Sorry", "ar": "آسف",
-      "descEn": "Use it when you make a mistake or upset someone.", "descAr": "نقولها عندما نخطئ أو نزعج شخصًا." },
-    { "id": "please", "category": "everyday", "en": "Please", "ar": "من فضلك",
-      "descEn": "Add it when you ask for something kindly.", "descAr": "نضيفها عندما نطلب شيئًا بلطف." },
-    { "id": "goodbye", "category": "everyday", "en": "Goodbye", "ar": "مع السلامة",
-      "descEn": "Say it when you leave or when someone leaves.", "descAr": "نقولها عند الذهاب أو عند وداع شخص." },
-    { "id": "help", "category": "needs", "en": "Help", "ar": "مساعدة", "express": true,
-      "descEn": "Ask for help when you need someone.", "descAr": "نطلب بها المساعدة عندما نحتاج إلى أحد." },
-    { "id": "water", "category": "needs", "en": "Water", "ar": "ماء", "express": true,
-      "descEn": "Ask for water when you are thirsty.", "descAr": "نطلب بها الماء عندما نعطش." },
-    { "id": "food", "category": "needs", "en": "Food", "ar": "أكل", "express": true,
-      "descEn": "Ask for food when you are hungry.", "descAr": "نطلب بها الأكل عندما نجوع." },
-    { "id": "toilet", "category": "needs", "en": "Toilet", "ar": "حمّام", "express": true,
-      "descEn": "Say you need the toilet, or ask where it is.", "descAr": "نقول بها إننا نحتاج إلى الحمّام، أو نسأل عن مكانه." },
-    { "id": "happy", "category": "feelings", "en": "Happy", "ar": "سعيد",
-      "descEn": "Show that you feel happy.", "descAr": "نعبّر بها عن الفرح." },
-    { "id": "sad", "category": "feelings", "en": "Sad", "ar": "حزين",
-      "descEn": "Show that you feel sad.", "descAr": "نعبّر بها عن الحزن." },
-    { "id": "tired", "category": "feelings", "en": "Tired", "ar": "تعبان", "express": true,
-      "descEn": "Tell others you are tired and need rest.", "descAr": "نخبر بها الآخرين أننا متعبون ونحتاج إلى راحة." },
-    { "id": "yes", "category": "answers", "en": "Yes", "ar": "نعم", "express": true,
-      "descEn": "Answer yes to a question.", "descAr": "نجيب بها بالموافقة." },
-    { "id": "no", "category": "answers", "en": "No", "ar": "لا", "express": true,
-      "descEn": "Answer no to a question.", "descAr": "نجيب بها بالرفض." }
+    {
+      "id": "hello",
+      "category": "everyday",
+      "en": "Hello",
+      "ar": "مرحبًا",
+      "descEn": "Say it when you meet someone.",
+      "descAr": "نقولها عندما نقابل شخصًا.",
+      "demonstration": {
+        "src": "https://sshi.sa/api/file/%D8%A3%D9%87%D9%84%D8%A7.mp4",
+        "poster": "https://sshi.sa/media/p/%D8%A3%D9%87%D9%84%D8%A7.jpg",
+        "sourceUrl": "https://sshi.sa/category/38/10664",
+        "sourceEn": "Saudi Sign Language Dictionary",
+        "sourceAr": "قاموس لغة الإشارة السعودية",
+        "languageEn": "Saudi Sign Language",
+        "languageAr": "لغة الإشارة السعودية"
+      }
+    },
+    {
+      "id": "thanks",
+      "category": "everyday",
+      "en": "Thank you",
+      "ar": "شكرًا",
+      "express": true,
+      "descEn": "Use it when someone helps you or gives you something.",
+      "descAr": "نقولها عندما يساعدنا أحد أو يعطينا شيئًا.",
+      "demonstration": {
+        "src": "https://sshi.sa/api/file/%D8%B4%D9%83%D8%B1%D8%A7%D9%8B.mp4",
+        "poster": "https://sshi.sa/media/p/%D8%B4%D9%83%D8%B1%D8%A7%D9%8B.jpg",
+        "sourceUrl": "https://sshi.sa/category/14/5018",
+        "sourceEn": "Saudi Sign Language Dictionary",
+        "sourceAr": "قاموس لغة الإشارة السعودية",
+        "languageEn": "Saudi Sign Language",
+        "languageAr": "لغة الإشارة السعودية"
+      }
+    },
+    {
+      "id": "sorry",
+      "category": "everyday",
+      "en": "Sorry",
+      "ar": "آسف",
+      "descEn": "Use it when you make a mistake or upset someone.",
+      "descAr": "نقولها عندما نخطئ أو نزعج شخصًا.",
+      "demonstration": {
+        "src": "https://sshi.sa/api/file/%D8%A7%D8%B3%D9%81.mp4",
+        "poster": "https://sshi.sa/media/p/%D8%A7%D8%B3%D9%81.jpg",
+        "sourceUrl": "https://sshi.sa/category/38/10625",
+        "sourceEn": "Saudi Sign Language Dictionary",
+        "sourceAr": "قاموس لغة الإشارة السعودية",
+        "languageEn": "Saudi Sign Language",
+        "languageAr": "لغة الإشارة السعودية"
+      }
+    },
+    {
+      "id": "please",
+      "category": "everyday",
+      "en": "Please",
+      "ar": "من فضلك",
+      "descEn": "Add it when you ask for something kindly.",
+      "descAr": "نضيفها عندما نطلب شيئًا بلطف.",
+      "demonstration": {
+        "src": "https://sshi.sa/api/file/%D8%B1%D8%AC%D8%A7%D8%A1.mp4",
+        "poster": "https://sshi.sa/media/p/%D8%B1%D8%AC%D8%A7%D8%A1.jpg",
+        "sourceUrl": "https://sshi.sa/category/14/5008",
+        "sourceEn": "Saudi Sign Language Dictionary",
+        "sourceAr": "قاموس لغة الإشارة السعودية",
+        "languageEn": "Saudi Sign Language",
+        "languageAr": "لغة الإشارة السعودية"
+      }
+    },
+    {
+      "id": "goodbye",
+      "category": "everyday",
+      "en": "Goodbye",
+      "ar": "مع السلامة",
+      "descEn": "Say it when you leave or when someone leaves.",
+      "descAr": "نقولها عند الذهاب أو عند وداع شخص.",
+      "demonstration": {
+        "src": "https://sshi.sa/api/file/%D9%85%D8%B9%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9.mp4",
+        "poster": "https://sshi.sa/media/p/%D9%85%D8%B9%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9.jpg",
+        "sourceUrl": "https://sshi.sa/category/14/5059",
+        "sourceEn": "Saudi Sign Language Dictionary",
+        "sourceAr": "قاموس لغة الإشارة السعودية",
+        "languageEn": "Saudi Sign Language",
+        "languageAr": "لغة الإشارة السعودية"
+      }
+    },
+    {
+      "id": "help",
+      "category": "needs",
+      "en": "Help",
+      "ar": "مساعدة",
+      "express": true,
+      "descEn": "Ask for help when you need someone.",
+      "descAr": "نطلب بها المساعدة عندما نحتاج إلى أحد.",
+      "demonstration": {
+        "src": "https://sshi.sa/api/file/%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9.mp4",
+        "poster": "https://sshi.sa/media/p/%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9.jpg",
+        "sourceUrl": "https://sshi.sa/category/38/11081",
+        "sourceEn": "Saudi Sign Language Dictionary",
+        "sourceAr": "قاموس لغة الإشارة السعودية",
+        "languageEn": "Saudi Sign Language",
+        "languageAr": "لغة الإشارة السعودية"
+      }
+    },
+    {
+      "id": "water",
+      "category": "needs",
+      "en": "Water",
+      "ar": "ماء",
+      "express": true,
+      "descEn": "Ask for water when you are thirsty.",
+      "descAr": "نطلب بها الماء عندما نعطش.",
+      "demonstration": {
+        "src": "https://sshi.sa/api/file/%D9%85%D8%A7%D8%A1.mp4",
+        "poster": "https://sshi.sa/media/p/%D9%85%D8%A7%D8%A1.jpg",
+        "sourceUrl": "https://sshi.sa/category/35/9173",
+        "sourceEn": "Saudi Sign Language Dictionary",
+        "sourceAr": "قاموس لغة الإشارة السعودية",
+        "languageEn": "Saudi Sign Language",
+        "languageAr": "لغة الإشارة السعودية"
+      }
+    },
+    {
+      "id": "food",
+      "category": "needs",
+      "en": "Food",
+      "ar": "أكل",
+      "express": true,
+      "descEn": "Ask for food when you are hungry.",
+      "descAr": "نطلب بها الأكل عندما نجوع.",
+      "demonstration": {
+        "src": "https://sshi.sa/api/file/%D8%A3%D9%83%D9%84.mp4",
+        "poster": "https://sshi.sa/media/p/%D8%A3%D9%83%D9%84.jpg",
+        "sourceUrl": "https://sshi.sa/category/26/1572",
+        "sourceEn": "Saudi Sign Language Dictionary",
+        "sourceAr": "قاموس لغة الإشارة السعودية",
+        "languageEn": "Saudi Sign Language",
+        "languageAr": "لغة الإشارة السعودية"
+      }
+    },
+    {
+      "id": "toilet",
+      "category": "needs",
+      "en": "Toilet",
+      "ar": "حمّام",
+      "express": true,
+      "descEn": "Say you need the toilet, or ask where it is.",
+      "descAr": "نقول بها إننا نحتاج إلى الحمّام، أو نسأل عن مكانه.",
+      "demonstration": {
+        "src": "https://sshi.sa/api/file/%D8%AF%D9%88%D8%B1%D8%A9%20%D9%85%D9%8A%D8%A7%D9%87.mp4",
+        "poster": "https://sshi.sa/media/p/%D8%AF%D9%88%D8%B1%D8%A9%20%D9%85%D9%8A%D8%A7%D9%87.jpg",
+        "sourceUrl": "https://sshi.sa/category/10/4609",
+        "sourceEn": "Saudi Sign Language Dictionary",
+        "sourceAr": "قاموس لغة الإشارة السعودية",
+        "languageEn": "Saudi Sign Language",
+        "languageAr": "لغة الإشارة السعودية"
+      }
+    },
+    {
+      "id": "happy",
+      "category": "feelings",
+      "en": "Happy",
+      "ar": "سعيد",
+      "descEn": "Show that you feel happy.",
+      "descAr": "نعبّر بها عن الفرح.",
+      "demonstration": {
+        "src": "https://sshi.sa/api/file/%D8%B3%D8%B9%D9%8A%D8%AF.mp4",
+        "poster": "https://sshi.sa/media/p/%D8%B3%D8%B9%D9%8A%D8%AF.jpg",
+        "sourceUrl": "https://sshi.sa/category/5/5147",
+        "sourceEn": "Saudi Sign Language Dictionary",
+        "sourceAr": "قاموس لغة الإشارة السعودية",
+        "languageEn": "Saudi Sign Language",
+        "languageAr": "لغة الإشارة السعودية"
+      }
+    },
+    {
+      "id": "sad",
+      "category": "feelings",
+      "en": "Sad",
+      "ar": "حزين",
+      "descEn": "Show that you feel sad.",
+      "descAr": "نعبّر بها عن الحزن.",
+      "demonstration": {
+        "src": "https://sshi.sa/api/file/%D8%AD%D8%B2%D9%8A%D9%86.mp4",
+        "poster": "https://sshi.sa/media/p/%D8%AD%D8%B2%D9%8A%D9%86.jpg",
+        "sourceUrl": "https://sshi.sa/category/5/5142",
+        "sourceEn": "Saudi Sign Language Dictionary",
+        "sourceAr": "قاموس لغة الإشارة السعودية",
+        "languageEn": "Saudi Sign Language",
+        "languageAr": "لغة الإشارة السعودية"
+      }
+    },
+    {
+      "id": "tired",
+      "category": "feelings",
+      "en": "Tired",
+      "ar": "تعبان",
+      "express": true,
+      "descEn": "Tell others you are tired and need rest.",
+      "descAr": "نخبر بها الآخرين أننا متعبون ونحتاج إلى راحة.",
+      "demonstration": {
+        "src": "https://sshi.sa/api/file/%D8%AA%D8%B9%D8%A8%D8%A7%D9%86.mp4",
+        "poster": "https://sshi.sa/media/p/%D8%AA%D8%B9%D8%A8%D8%A7%D9%86.jpg",
+        "sourceUrl": "https://sshi.sa/category/39/11385",
+        "sourceEn": "Saudi Sign Language Dictionary",
+        "sourceAr": "قاموس لغة الإشارة السعودية",
+        "languageEn": "Saudi Sign Language",
+        "languageAr": "لغة الإشارة السعودية"
+      }
+    },
+    {
+      "id": "yes",
+      "category": "answers",
+      "en": "Yes",
+      "ar": "نعم",
+      "express": true,
+      "descEn": "Answer yes to a question.",
+      "descAr": "نجيب بها بالموافقة.",
+      "demonstration": {
+        "src": "https://sshi.sa/api/file/%D9%86%D8%B9%D9%85.mp4",
+        "poster": "https://sshi.sa/media/p/%D9%86%D8%B9%D9%85.jpg",
+        "sourceUrl": "https://sshi.sa/category/23/972",
+        "sourceEn": "Saudi Sign Language Dictionary",
+        "sourceAr": "قاموس لغة الإشارة السعودية",
+        "languageEn": "Saudi Sign Language",
+        "languageAr": "لغة الإشارة السعودية"
+      }
+    },
+    {
+      "id": "no",
+      "category": "answers",
+      "en": "No",
+      "ar": "لا",
+      "express": true,
+      "descEn": "Answer no to a question.",
+      "descAr": "نجيب بها بالرفض.",
+      "demonstration": {
+        "src": "https://sshi.sa/api/file/aHjBj6SMGwcd9o4G81x61DzgfxqgVBB4.mp4",
+        "poster": "https://sshi.sa/media/p/aHjBj6SMGwcd9o4G81x61DzgfxqgVBB4.jpg",
+        "sourceUrl": "https://sshi.sa/category/1/30",
+        "sourceEn": "Saudi Sign Language Dictionary",
+        "sourceAr": "قاموس لغة الإشارة السعودية",
+        "languageEn": "Saudi Sign Language",
+        "languageAr": "لغة الإشارة السعودية"
+      }
+    }
   ]
 }

@@ -55,17 +55,21 @@ const WORDS = {
     learnedBadge: "Learned", markLearned: "Mark as learned", isLearned: "Learned",
     listen: "Listen", speaking: "Speaking: “{w}”", noSpeech: "This browser cannot speak. Read the words on the screen.",
     backToSigns: "All signs", notFound: "We couldn’t find that sign.",
-    quizTitle: "Practice", quizAsk: "Which word matches this picture?",
+    quizTitle: "Practice", quizAsk: "Which word matches this sign?",
+    watchSign: "Watch the sign", pauseSign: "Pause", replaySign: "Replay", slowSign: "Slow motion",
+    signingDemo: "Sign language demonstration", videoError: "The video could not load. Open the source to watch the sign.",
+    signSource: "Watch at source", referenceNote: "Video references: Saudi Sign Language. Egyptian signs may differ; local review is still needed.",
+    previewHint: "Watch movement",
     questionOf: "Question {i} of {n}", score: "Score: {s}",
     correct: "Correct! Well done.", wrong: "Not quite. The answer is “{w}”.",
     nextQ: "Next question", quizDone: "You finished! You got {s} out of {n}.", restart: "Play again",
-    expressTitle: "Express", expressText: "Tap a picture. The word appears big on the screen and is read aloud, so a hearing person understands.",
+    expressTitle: "Express", expressText: "Tap a sign to watch its movement. The word appears big on the screen and is read aloud, so a hearing person understands.",
     close: "Close", sayAgain: "Say it again",
     aboutTitle: "About Bayan",
     a1: "Bayan is a website made by Batool, a 13-year-old student, to help families and friends of deaf children learn sign language.",
     a2: "It started as a small phone app with four signs. Now it has a sign dictionary, a practice game and an Express page that turns a picture into big words.",
-    a3: "Sign language note: Bayan targets Egyptian Sign Language, cross-checked against the Unified Arabic Sign Dictionary. The sign pictures here are a prototype and have not yet been reviewed by a deaf signer, interpreter or specialist.",
-    a4: "Pictures on this site show what a word means. They are not instructions for the hand shape. Real sign photos and videos recorded by Batool will replace them.",
+    a3: "Bayan aims to support Egyptian Sign Language. The current recorded demonstrations come from the Saudi Sign Language Dictionary and are labeled as Saudi references. They have not been reviewed for Egyptian regional usage.",
+    a4: "Each sign shows a real signer. Open a card to watch the movement, replay it, or slow it down. Videos stream from the credited dictionary and need an internet connection. Locally reviewed Egyptian recordings can replace these references.",
     nextLink: "What comes next",
     nextTitle: "What comes next",
     nextIntro: "Bayan is a bridge between deaf and hearing people, built in three stages.",
@@ -94,17 +98,21 @@ const WORDS = {
     learnedBadge: "تعلّمتها", markLearned: "تعلّمت هذه الإشارة", isLearned: "تعلّمتها",
     listen: "استمع", speaking: "يُقرأ الآن: «{w}»", noSpeech: "هذا المتصفح لا يستطيع القراءة بصوت. اقرأ الكلمات على الشاشة.",
     backToSigns: "كل الإشارات", notFound: "لم نجد هذه الإشارة.",
-    quizTitle: "تدريب", quizAsk: "أي كلمة تناسب هذه الصورة؟",
+    quizTitle: "تدريب", quizAsk: "أي كلمة تناسب هذه الإشارة؟",
+    watchSign: "شاهد الإشارة", pauseSign: "إيقاف مؤقت", replaySign: "إعادة المشاهدة", slowSign: "حركة بطيئة",
+    signingDemo: "عرض بلغة الإشارة", videoError: "تعذّر تحميل الفيديو. افتح المصدر لمشاهدة الإشارة.",
+    signSource: "شاهد في المصدر", referenceNote: "مرجع الفيديوهات: لغة الإشارة السعودية. قد تختلف الإشارات المصرية، وما زالت بحاجة إلى مراجعة محلية.",
+    previewHint: "شاهد الحركة",
     questionOf: "السؤال {i} من {n}", score: "النقاط: {s}",
     correct: "إجابة صحيحة! أحسنت.", wrong: "ليست هذه. الإجابة الصحيحة «{w}».",
     nextQ: "السؤال التالي", quizDone: "انتهيت! حصلت على {s} من {n}.", restart: "العب مرة أخرى",
-    expressTitle: "عبّر", expressText: "اضغط على صورة. تظهر الكلمة كبيرة على الشاشة وتُقرأ بصوت عالٍ ليفهمها الشخص السامع.",
+    expressTitle: "عبّر", expressText: "اضغط على إشارة لمشاهدة حركتها. تظهر الكلمة كبيرة على الشاشة وتُقرأ بصوت عالٍ ليفهمها الشخص السامع.",
     close: "إغلاق", sayAgain: "قلها مرة أخرى",
     aboutTitle: "عن بيان",
     a1: "بيان موقع صنعته بتول، طالبة عمرها ١٣ عامًا، لتساعد أسر الأطفال الصمّ وأصدقاءهم على تعلّم لغة الإشارة.",
     a2: "بدأ كتطبيق صغير على الهاتف فيه أربع إشارات. أصبح الآن قاموسًا للإشارات ولعبة تدريب وصفحة «عبّر» التي تحوّل الصورة إلى كلمات كبيرة.",
-    a3: "ملاحظة عن لغة الإشارة: يعتمد بيان لغة الإشارة المصرية، مع المراجعة على القاموس الإشاري العربي الموحّد. صور الإشارات هنا نموذج أولي، ولم يراجعها بعد شخص أصمّ يستخدم الإشارة أو مترجم أو مختص.",
-    a4: "الصور في الموقع توضّح معنى الكلمة، وليست شرحًا لشكل اليد. ستحلّ محلها صور وفيديوهات حقيقية تسجّلها بتول.",
+    a3: "يهدف بيان إلى دعم لغة الإشارة المصرية. العروض المسجّلة الحالية من قاموس لغة الإشارة السعودية، ومُعرَّفة كمراجع سعودية. لم تُراجَع بعد للتأكد من ملاءمتها للاستخدام المصري.",
+    a4: "تعرض كل إشارة شخصًا يؤديها. افتح البطاقة لمشاهدة الحركة أو إعادتها أو إبطائها. تُعرض الفيديوهات من القاموس المذكور في المصدر وتحتاج إلى اتصال بالإنترنت. يمكن استبدالها بتسجيلات مصرية بعد مراجعتها محليًا.",
     nextLink: "ما القادم",
     nextTitle: "ما القادم",
     nextIntro: "بيان جسر بين الصمّ والسامعين، يُبنى على ثلاث مراحل.",
@@ -164,14 +172,55 @@ function otherLang() { return state.lang === "ar" ? "en" : "ar"; }
 function desc(sign) { return state.lang === "ar" ? sign.descAr : sign.descEn; }
 function catColor(sign) { return `--cat: var(--${findCategory(sign.category).color})`; }
 
-// The picture for a sign: a real photo/video when recorded, otherwise the drawn icon.
-function signArt(sign, size) {
+// Cards use a still of the signer. Players are only placed outside links/buttons.
+function signArt(sign, size, interactive = false) {
+  const demo = sign.demonstration;
+  if (demo) {
+    if (!interactive) return `<span class="sign-preview"><img data-sign-poster src="${esc(demo.poster)}" alt="" width="${size}" height="${size}" loading="lazy"><span class="preview-play" aria-hidden="true">▷</span></span>`;
+    return `<section class="sign-player" data-sign-player data-playing="false">
+      <div class="sign-screen">
+        <video src="${esc(demo.src)}" poster="${esc(demo.poster)}" preload="none" muted playsinline controls aria-label="${t("signingDemo")}"></video>
+        <p class="sign-video-error" role="status" hidden>${t("videoError")}</p>
+      </div>
+      <div class="sign-controls">
+        <button class="btn btn-small" type="button" data-action="toggle-sign">${t("watchSign")}</button>
+        <button class="btn btn-small" type="button" data-action="replay-sign">${icon("restart")}${t("replaySign")}</button>
+        <button class="btn btn-small" type="button" data-action="slow-sign" aria-pressed="false">0.5× <span>${t("slowSign")}</span></button>
+      </div>
+      <p class="sign-credit">${esc(demo[state.lang === "ar" ? "languageAr" : "languageEn"])} · <a href="${esc(demo.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t("signSource")} ↗<span class="visually-hidden">: ${esc(demo[state.lang === "ar" ? "sourceAr" : "sourceEn"])}</span></a></p>
+    </section>`;
+  }
   if (sign.media && sign.media.endsWith(".mp4")) {
     const auto = reduceMotion.matches ? "" : "autoplay";
     return `<video src="${esc(sign.media)}" ${auto} muted loop playsinline controls aria-label="${esc(word(sign))}"></video>`;
   }
   const src = sign.media || `icons/${sign.id}.svg`;
   return `<img src="${esc(src)}" alt="" width="${size}" height="${size}" loading="lazy">`;
+}
+
+function referenceNote() { return `<p class="sign-reference" role="note">${t("referenceNote")}</p>`; }
+
+function playSign(video) {
+  const result = video.play();
+  result?.catch(() => { /* Native controls remain available if autoplay is blocked. */ });
+}
+
+function initSignPlayers(root) {
+  root.querySelectorAll("[data-sign-player]").forEach((player) => {
+    const video = player.querySelector("video");
+    const sync = () => {
+      const playing = !video.paused && !video.ended;
+      player.dataset.playing = String(playing);
+      player.querySelector('[data-action="toggle-sign"]').textContent = t(playing ? "pauseSign" : "watchSign");
+    };
+    ["play", "pause", "ended"].forEach((event) => video.addEventListener(event, sync));
+    video.addEventListener("error", () => {
+      player.querySelector(".sign-video-error").hidden = false;
+      player.querySelectorAll("button").forEach((button) => { button.disabled = true; });
+    });
+    // Opening a card requests its movement. Reduced-motion users start it manually.
+    if (!reduceMotion.matches) playSign(video);
+  });
 }
 
 function showToast(message) {
@@ -192,6 +241,7 @@ function stickerCard(sign) {
       <span class="sticker-label">
         <span class="sticker-word">${esc(word(sign))}</span>
         <span class="sticker-other" lang="${otherLang()}">${esc(otherWord(sign))}</span>
+        <span class="sticker-watch">▷ ${t("previewHint")}</span>
       </span>
       ${learned ? `<span class="learned-badge" title="${t("learnedBadge")}">${icon("check")}<span class="visually-hidden">${t("learnedBadge")}</span></span>` : ""}
     </a>`;
@@ -226,6 +276,7 @@ function renderHome() {
       </button>
     </section>
     <h2 class="section-title">${t("shelvesTitle")}</h2>
+    ${referenceNote()}
     ${shelves}`;
 }
 
@@ -240,6 +291,7 @@ function renderSigns() {
 
   return `
     <h1 tabindex="-1">${t("signsTitle")}</h1>
+    ${referenceNote()}
     <div class="search-bubble">
       <label class="visually-hidden" for="search">${t("searchLabel")}</label>
       ${icon("search")}
@@ -272,7 +324,8 @@ function renderSign(id) {
   return `
     <a class="btn btn-small back" href="#signs">${icon("back")}${t("backToSigns")}</a>
     <article class="detail" style="${catColor(sign)}">
-      <div class="detail-art">${signArt(sign, 220)}</div>
+      <div class="detail-art">${signArt(sign, 220, true)}</div>
+      ${referenceNote()}
       <span class="cat-tag"><img src="icons/cat-${cat.id}.svg" alt="" width="28" height="28">${esc(cat[state.lang])}</span>
       <h1 tabindex="-1" class="detail-word">
         <span lang="ar">${esc(sign.ar)}</span>
@@ -294,6 +347,7 @@ function renderExpress() {
   return `
     <h1 tabindex="-1">${t("expressTitle")}</h1>
     <p class="lead">${t("expressText")}</p>
+    ${referenceNote()}
     <div class="need-grid">
       ${needs.map((s) => `
         <button class="need" type="button" data-action="express" data-id="${s.id}" style="${catColor(s)}">
@@ -424,7 +478,8 @@ function renderQuiz() {
       <span>${t("score", { s: quiz.score })}</span>
     </div>
     <div class="quiz-card" style="${catColor(q.answer)}">
-      <div class="quiz-art">${signArt(q.answer, 180)}</div>
+      <div class="quiz-art">${signArt(q.answer, 180, true)}</div>
+      ${referenceNote()}
       <p class="quiz-ask">${t("quizAsk")}</p>
       <div class="options">${options}</div>
       <div role="status" aria-live="polite">${feedback}</div>
@@ -476,7 +531,8 @@ function openExpress(id, opener) {
   overlay.style.cssText = catColor(sign);
   overlay.innerHTML = `
     <div class="express-card">
-      <div class="express-art">${signArt(sign, 200)}</div>
+      <div class="express-art">${signArt(sign, 200, true)}</div>
+      ${referenceNote()}
       <p class="express-ar" lang="ar">${esc(sign.ar)}</p>
       <p class="express-en" lang="en" aria-label="${esc(sign.en)}"><span aria-hidden="true">${letters}</span></p>
       <div class="express-actions">
@@ -486,6 +542,7 @@ function openExpress(id, opener) {
     </div>`;
   overlay.returnFocus = opener;
   document.body.append(overlay);
+  initSignPlayers(overlay);
   document.body.classList.add("no-scroll");
   overlay.querySelector('[data-action="close-express"]').focus();
   speak(word(sign), sign, false);
@@ -552,6 +609,7 @@ function showPage(html, animate = true) {
     view.classList.add("enter");
   }
   updateSignGrid();
+  initSignPlayers(view);
 }
 
 function route(firstLoad = false) {
@@ -577,6 +635,22 @@ function route(firstLoad = false) {
 /* ---------- 6. Clicks and start-up ---------- */
 
 const ACTIONS = {
+  "toggle-sign"(el) {
+    const video = el.closest("[data-sign-player]").querySelector("video");
+    if (video.paused) playSign(video);
+    else video.pause();
+  },
+  "replay-sign"(el) {
+    const video = el.closest("[data-sign-player]").querySelector("video");
+    video.currentTime = 0;
+    playSign(video);
+  },
+  "slow-sign"(el) {
+    const video = el.closest("[data-sign-player]").querySelector("video");
+    const slow = el.getAttribute("aria-pressed") !== "true";
+    video.playbackRate = slow ? 0.5 : 1;
+    el.setAttribute("aria-pressed", String(slow));
+  },
   lang() {
     state.lang = otherLang();
     saveSetting("lang", state.lang);
@@ -637,7 +711,7 @@ document.addEventListener("keydown", (event) => {
   // Keep keyboard focus inside the full-screen Express card.
   const overlay = document.querySelector(".express-full");
   if (overlay && event.key === "Tab") {
-    const buttons = overlay.querySelectorAll("button");
+    const buttons = overlay.querySelectorAll('button:not([disabled]), a[href], video[controls]');
     const first = buttons[0], last = buttons[buttons.length - 1];
     if (event.shiftKey && document.activeElement === first) { last.focus(); event.preventDefault(); }
     else if (!event.shiftKey && document.activeElement === last) { first.focus(); event.preventDefault(); }
